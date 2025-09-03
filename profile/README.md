@@ -29,8 +29,7 @@
 
 - ### Milestones
 
-  1. #### [kemet-dev](https://github.com/kemet-dev)
-  2. #### [??](#)
+  1. #### [??](#)
 
 <br>
 <div align="center">
