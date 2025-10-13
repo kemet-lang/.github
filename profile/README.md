@@ -2,22 +2,21 @@
 <br>
 <div align="center">
     <p>
-        <img src="https://raw.githubusercontent.com/kemet-zone/.github/refs/heads/main/assets/images/logo/kemet-logo.png" alt="Input / Output" width="1000" />
+        <img src="./assets/img/logo.png" alt="Kemet-Logo" style="" width="300" />
     </p>
 </div>
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/kemet-zone/.github/refs/heads/main/assets/images/md/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/>
-</div>
-<p align="center">
-    <b>
-        <br>
-        Civilizations aren't inherited — they're built.
-    </b>
-</p>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/kemet-zone/.github/refs/heads/main/assets/images/md/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/>
+    <p>
+        <img src="./assets/img/lang-desc.png" alt="Kemet-Desc" style="" width="220" />
+    </p>
+    <a href="https://github.com/kemet-project"><img src="https://img.shields.io/badge/from-kemet_project-black"/></a>
+</div>
+
+
+<div align="center">
+    <img src="./assets/img/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/>
     <br>
 </div>
 
@@ -27,14 +26,10 @@
 
 <!---------------------------------- BENCH ---------------------------------->
 
-- ### Milestones
+- ### Roadmap
 
-  1. #### [??](#)
-
-<br>
-<div align="center">
-    <img src="https://raw.githubusercontent.com/kemet-zone/.github/refs/heads/main/assets/images/md/line.png" alt="line" style="display: block; margin-top:20px;margin-bottom:20px;width:500px;"/>
-</div>
+  - #### [🎯 Minimum Viable Product (MVP)](./roadmap/MVP.md) - Current Focus
+    > Deliver core language features and basic tooling
 
 <!--------------------------------------------------------------------------->
 
@@ -44,8 +39,14 @@
 
 <br>
 <div align="center">
+    <img src="./assets/img/line.png" alt="line" style="display: block;width:500px;"/>
+    <br>
+</div>
+
+<br>
+<div align="center" dir='rtl'>
     <a href="https://github.com/maysara-elshewehy">
-        <img src="https://img.shields.io/badge/Made with ❤️ by-Maysara-orange"/>
+        <img src="https://img.shields.io/badge/by-Maysara-blue"/>
     </a>
 </div>
 
