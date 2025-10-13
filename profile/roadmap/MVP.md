@@ -85,7 +85,7 @@
     | `02` [`parser`](https://github.com/je-es/parser)         | A mechanism for creating grammatical rules.                   | `je-es`      | `live`    |
     | `03` [`syntax`](https://github.com/je-es/syntax)         | A wrapper for lexer and parser.                               | `je-es`      | `live`    |
     | `04` [`ast`](https://github.com/je-es/ast)               | A library for building and managing Abstract Syntax Trees.    | `je-es`      | `live`    |
-    | `05` [`rules`](https://github.com/kemet-lang/rules)      | Shared kemet language rules.                                  | `kemet-lang` | `live`    |
+    | `05` [`rules`](https://github.com/kemet-lang/rules)      | Parser rules and grammar definitions for Kemet language.      | `kemet-lang` | `live`    |
     | `06` [`analyzer`](https://github.com/je-es/ast-analyzer) | A library for analyzing and validating Abstract Syntax Trees. | `je-es`      | `99%`     |
     | `07` [`project`](https://github.com/je-es/project)       | ...                                                           | `je-es`      | `75%`     |
     | `08` [`lsp`](https://github.com/je-es/lsp)               | A customizable language server protocol.                      | `je-es`      | `75%`     |
