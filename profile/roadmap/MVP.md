@@ -79,19 +79,19 @@
 
 - ### Workflow
 
-    | target                                                   | desc                                                          | namespace    | status           |
-    | -------------------------------------------------------- | ------------------------------------------------------------- | ------------ | ---------------- |
-    | `01` [`lexer`](https://github.com/je-es/lexer)           | A tool for converting text into tokens.                       | `je-es`      | `100%` `live`    |
-    | `02` [`parser`](https://github.com/je-es/parser)         | A mechanism for creating grammatical rules.                   | `je-es`      | `100%` `live`    |
-    | `03` [`syntax`](https://github.com/je-es/syntax)         | A wrapper for lexer and parser.                               | `je-es`      | `100%` `live`    |
-    | `04` [`ast`](https://github.com/je-es/ast)               | A library for building and managing Abstract Syntax Trees.    | `je-es`      | `-99%` `local`   |
-    | `05` [`rules`](https://github.com/kemet-lang/rules)      | Shared kemet language rules.                                  | `kemet-lang` | `-99%` `local`   |
-    | `06` [`analyzer`](https://github.com/je-es/ast-analyzer) | A library for analyzing and validating Abstract Syntax Trees. | `je-es`      | `-99%` `local`   |
-    | `07` [`project`](https://github.com/je-es/project)       | ...                                                           | `je-es`      | `-60%` `local`   |
-    | `08` [`lsp`](https://github.com/je-es/lsp)               | ...                                                           | `je-es`      | `-50%` `local`   |
-    | `09` [`core`](https://github.com/kemet-lang/core)        | main repo.                                                    | `kemet-lang` | `--0%` `local`   |
-    | `10` [`codegen`](https://github.com/je-es/codegen)       | ...                                                           | `je-es`      | `--0%` `not-yet` |
-    | `11` [`compiler`](https://github.com/je-es/compiler)     | ...                                                           | `je-es`      | `--0%` `not-yet` |
+    | target                                                   | desc                                                          | namespace    | status    |
+    | -------------------------------------------------------- | ------------------------------------------------------------- | ------------ | --------- |
+    | `01` [`lexer`](https://github.com/je-es/lexer)           | A tool for converting text into tokens.                       | `je-es`      | `live`    |
+    | `02` [`parser`](https://github.com/je-es/parser)         | A mechanism for creating grammatical rules.                   | `je-es`      | `live`    |
+    | `03` [`syntax`](https://github.com/je-es/syntax)         | A wrapper for lexer and parser.                               | `je-es`      | `live`    |
+    | `04` [`ast`](https://github.com/je-es/ast)               | A library for building and managing Abstract Syntax Trees.    | `je-es`      | `live`    |
+    | `05` [`rules`](https://github.com/kemet-lang/rules)      | Shared kemet language rules.                                  | `kemet-lang` | `live`    |
+    | `06` [`analyzer`](https://github.com/je-es/ast-analyzer) | A library for analyzing and validating Abstract Syntax Trees. | `je-es`      | `99%`     |
+    | `07` [`project`](https://github.com/je-es/project)       | ...                                                           | `je-es`      | `75%`     |
+    | `08` [`lsp`](https://github.com/je-es/lsp)               | A customizable language server protocol.                      | `je-es`      | `75%`     |
+    | `09` [`core`](https://github.com/kemet-lang/core)        | main repo.                                                    | `kemet-lang` | `not-yet` |
+    | `10` [`codegen`](https://github.com/je-es/codegen)       | ...                                                           | `je-es`      | `not-yet` |
+    | `11` [`compiler`](https://github.com/je-es/compiler)     | ...                                                           | `je-es`      | `not-yet` |
 
 
 <br>
