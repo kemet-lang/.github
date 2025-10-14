@@ -87,7 +87,7 @@
     | `04` [`ast`](https://github.com/je-es/ast)               | A library for building and managing Abstract Syntax Trees.    | `je-es`      | `live`            |
     | `05` [`rules`](https://github.com/kemet-lang/rules)      | Parser rules and grammar definitions for Kemet language.      | `kemet-lang` | `live`            |
     | `06` [`analyzer`](https://github.com/je-es/ast-analyzer) | A library for analyzing and validating Abstract Syntax Trees. | `je-es`      | `live`            |
-    | `07` [`project`](https://github.com/je-es/project)       | A project manager for lsp.                                    | `je-es`      | `99%`             |
+    | `07` [`project`](https://github.com/je-es/project)       | A project manager for lsp.                                    | `je-es`      | `live`            |
     | `08` [`lsp`](https://github.com/je-es/lsp)               | A customizable language server protocol.                      | `je-es`      | `99%`             |
     | `09` [`core`](https://github.com/kemet-lang/core)        | main repo.                                                    | `kemet-lang` | `95%`             |
     | `10` [`codegen`](https://github.com/je-es/codegen)       | ...                                                           | `je-es`      | `in-next-version` |
