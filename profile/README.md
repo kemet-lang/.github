@@ -9,7 +9,7 @@
 
 <div align="center">
     <p>
-        <img src="./assets/img/lang-desc.png" alt="Kemet-Desc" style="" width="220" />
+        <img src="./assets/img/mvp-desc.png" alt="Kemet-Desc" style="" width="220" />
     </p>
     <a href="https://github.com/kemet-project"><img src="https://img.shields.io/badge/from-kemet_project-black"/></a>
 </div>

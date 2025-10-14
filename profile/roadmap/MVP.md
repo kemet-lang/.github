@@ -45,23 +45,23 @@
 
 - ### Target
 
-    > A **vscode extention** including **syntax highlighter** and **[language server](#kemet-language-server)**.
+    > A **vscode extension** including **syntax highlighter** and **[language server](#kemet-language-server)**.
 
     - #### Kemet Language Server
 
-        > I have tried dozens of languages in my life. There are great languages, but their LSP is sterile/barren, and there are languages that are not of the same quality, but they have a superb LSP that makes the development process much better, like TypeScript's.
+        > I have tried dozens of languages in my life. There are great languages, but their LSP is limited, and there are languages that are not of the same quality, but they have an excellent LSP that makes the development process much better, like TypeScript's.
 
-        > And in fact, I don't intend to build something sterile/inadequate, or at least I don't want to wait long before enjoying writing code in the Kemet language with at least the same quality that I enjoy when writing TypeScript.
+        > And in fact, I don't intend to build something limited/inadequate, or at least I don't want to wait long before enjoying writing code in the Kemet language with at least the same quality that I enjoy when writing TypeScript.
 
-        > As you can see, I thought first about the LSP. Anyone in my place would have thought about other things like the language syntax! Simply put, the hard part is not building a programming language, **But building an experience that makes programming without Kemet a waste of time!**
+        > As you can see, I thought first about the LSP. Anyone in my position would have focused on other things first, like the language syntax! Simply put, the hard part is not building a programming language, **But building an experience that makes programming without Kemet a waste of time!**
 
         - ##### Why vscode? is it enough?
 
             > temp solution, yes it's enough for now.
 
-        - ##### Which language will use?
+        - ##### Which language will I use?
 
-            > vscode uses **TypeScript** so i will use it too.
+            > vscode uses **TypeScript** so I will use it too.
 
         > The **[main repo](https://github.com/kemet-lang/core)** will contain the vscode extension as a wrapper for our [@je-es/lsp](https://github.com/je-es/lsp) and [@je-es/project](https://github.com/je-es/project) libraries.
 
@@ -93,6 +93,15 @@
     | `10` [`codegen`](https://github.com/je-es/codegen)       | ...                                                                       | `je-es`      | `in-next-version` |
     | `11` [`compiler`](https://github.com/je-es/compiler)     | ...                                                                       | `je-es`      | `in-next-version` |
 
+    > Alright, the current state of the project has become extremely advanced for this stage.
+    >
+    > Apart from stages `10` and `11`, everything that remains is minor improvements to non-critical things that don't require programming expertise to modify, such as error messages, the LSP error filtering algorithm, and so on.
+    >
+    > But from a technical standpoint, by God's grace, a strong foundation has been built. Even if errors are found, the structure and approach followed are intended to facilitate such rare cases and make the maintenance process more flexible and easier.
+    >
+    > .. A lot of time has passed since I started working on this project. I think I'll change my activity for now so I don't get bored, and I'll produce a [YouTube](https://www.youtube.com/@Code-Guild) video documenting **the journey of the past 100 days**.
+
+    > _last edit: **14/10/2025**_
 
 <br>
 <div align="center">
@@ -107,10 +116,13 @@
 <!----------------------------------- END ----------------------------------->
 
 <br>
-<div align="center" dir='rtl'>
+<div align="center" dir='ltr'>
     <a href="https://github.com/maysara-elshewehy">
         <img src="https://img.shields.io/badge/by-Maysara-blue"/>
     </a>
+</div>
+<div align="center" dir='ltr'>
+    <img src="https://img.shields.io/badge/-14 oct 2025-black"/>
 </div>
 
 <!--------------------------------------------------------------------------->
