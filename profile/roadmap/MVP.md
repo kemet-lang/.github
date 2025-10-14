@@ -63,7 +63,7 @@
 
             > vscode uses **TypeScript** so I will use it too.
 
-        > The **[main repo](https://github.com/kemet-lang/core)** will contain the vscode extension as a wrapper for our [@je-es/lsp](https://github.com/je-es/lsp) and [@je-es/project](https://github.com/je-es/project) libraries.
+        > The **[kls](https://github.com/kemet-lang/kls)** is a vscode extension as a wrapper for my [@je-es](https://github.com/je-es/) libraries.
 
         > By using my [`je-es`](https://github.com/je-es) framework, I'm reducing direct friction with vscode and working on small, separate libraries that are easier to maintain and reuse again if we want to, without rewriting or duplicating the same logic and code again.
 
