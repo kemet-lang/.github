@@ -89,7 +89,7 @@
     | `06` [`analyzer`](https://github.com/je-es/ast-analyzer) | A library for analyzing and validating Abstract Syntax Trees.             | `je-es`      | `live`            |
     | `07` [`project`](https://github.com/je-es/project)       | Designed for lsp usage to manage a single project.                        | `je-es`      | `live`            |
     | `08` [`lsp`](https://github.com/je-es/lsp)               | A customizable language server protocol with full integration with vscode | `je-es`      | `live`            |
-    | `09` [`core`](https://github.com/kemet-lang/core)        | main repo.                                                                | `kemet-lang` | `95%`             |
+    | `09` [`kls`](https://github.com/kemet-lang/kls)          | Kemet language server for visual studio code                              | `kemet-lang` | `live`            |
     | `10` [`codegen`](https://github.com/je-es/codegen)       | ...                                                                       | `je-es`      | `in-next-version` |
     | `11` [`compiler`](https://github.com/je-es/compiler)     | ...                                                                       | `je-es`      | `in-next-version` |
 
