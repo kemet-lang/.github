@@ -9,10 +9,10 @@
 
 <div align="center">
     <p>
-        <img src="../assets/img/mvp-desc.png" alt="Kemet-Desc" style="" width="220" />
+        <img src="../assets/img/mvp-desc.png" alt="Kemet-Desc" style="" width="300" />
     </p>
-    <img src="https://img.shields.io/badge/v-MVP-black"/>
-    <a href="../README.md"><img src="https://img.shields.io/badge/from-kemet_lang-black"/></a>
+    <img src="https://img.shields.io/badge/Version-MVP-black"/>
+    <a href="../README.md"><img src="https://img.shields.io/badge/Built_for-kemet_lang-black"/></a>
 </div>
 
 
@@ -35,41 +35,7 @@
 
     > Most people start by building a poorly-designed program in a matter of days, call it their first release, and then spend years fixing issues that could have been avoided from **the beginning—technical debt**.
 
-    > Actually.. **What am I trying to do here?** How will Kemet ultimately work? **What is the nature of the program I'm trying to build here?** well, this question is not easy, so **[What is my goal?](#target)** and **[How will I achieve it?](#workflow)**
-
-<br>
-<div align="center">
-    <img src="../assets/img/line.png" alt="line" style="display: block;width:500px;"/>
-    <br>
-</div>
-
-- ### Target
-
-    > A **vscode extension** including **syntax highlighter** and **[language server](#kemet-language-server)**.
-
-    - #### Kemet Language Server
-
-        > I have tried dozens of languages in my life. There are great languages, but their LSP is limited, and there are languages that are not of the same quality, but they have an excellent LSP that makes the development process much better, like TypeScript's.
-
-        > And in fact, I don't intend to build something limited/inadequate, or at least I don't want to wait long before enjoying writing code in the Kemet language with at least the same quality that I enjoy when writing TypeScript.
-
-        > As you can see, I thought first about the LSP. Anyone in my position would have focused on other things first, like the language syntax! Simply put, the hard part is not building a programming language, **But building an experience that makes programming without Kemet a waste of time!**
-
-        - ##### Why vscode? is it enough?
-
-            > temp solution, yes it's enough for now.
-
-        - ##### Which language will I use?
-
-            > vscode uses **TypeScript** so I will use it too.
-
-        > The **[kls](https://github.com/kemet-lang/kls)** is a vscode extension as a wrapper for my [@je-es](https://github.com/je-es/) libraries.
-
-        > By using my [`je-es`](https://github.com/je-es) framework, I'm reducing direct friction with vscode and working on small, separate libraries that are easier to maintain and reuse again if we want to, without rewriting or duplicating the same logic and code again.
-
-        > Honestly, this approach is the best. You can imagine it as if I've turned what I'm doing into a pharaonic puzzle - to solve it, you must gather and assemble all the pieces together correctly, which is what I will do and explain next.
-
-        > In other words, I will create a set of well-polished pieces individually, each piece separately, and I will only assemble them together at the end and put the configuration I want in a way that aligns with Kemet's principles. This means that everything I'm building now **can be reused to build any other language and not just Kemet!**
+    > Actually.. **What am I trying to do here?** How will Kemet ultimately work? **What is the nature of the program I'm trying to build here?** well, this question is not easy, so **[What is my goal?](#kemet-lang)** and **[How will I achieve it?](#workflow)**
 
 <br>
 <div align="center">
@@ -79,29 +45,35 @@
 
 - ### Workflow
 
-    | target                                                   | desc                                                                      | namespace    | status            |
-    | -------------------------------------------------------- | ------------------------------------------------------------------------- | ------------ | ----------------- |
-    | `01` [`lexer`](https://github.com/je-es/lexer)           | A tool for converting text into tokens.                                   | `je-es`      | `live`            |
-    | `02` [`parser`](https://github.com/je-es/parser)         | A mechanism for creating grammatical rules.                               | `je-es`      | `live`            |
-    | `03` [`syntax`](https://github.com/je-es/syntax)         | Unified wrapper that streamlines syntax creation.                         | `je-es`      | `live`            |
-    | `04` [`ast`](https://github.com/je-es/ast)               | A library for building and managing Abstract Syntax Trees.                | `je-es`      | `live`            |
-    | `05` [`rules`](https://github.com/kemet-lang/rules)      | Parser rules and grammar definitions for Kemet language.                  | `kemet-lang` | `live`            |
-    | `06` [`analyzer`](https://github.com/je-es/ast-analyzer) | A library for analyzing and validating Abstract Syntax Trees.             | `je-es`      | `live`            |
-    | `07` [`project`](https://github.com/je-es/project)       | Designed for lsp usage to manage a single project.                        | `je-es`      | `live`            |
-    | `08` [`lsp`](https://github.com/je-es/lsp)               | A customizable language server protocol with full integration with vscode | `je-es`      | `live`            |
-    | `09` [`kls`](https://github.com/kemet-lang/kls)          | Kemet language server for visual studio code                              | `kemet-lang` | `live`            |
-    | `10` [`codegen`](https://github.com/je-es/codegen)       | ...                                                                       | `je-es`      | `in-next-version` |
-    | `11` [`compiler`](https://github.com/je-es/compiler)     | ...                                                                       | `je-es`      | `in-next-version` |
+    - #### `@je-es`
 
-    > Alright, the current state of the project has become extremely advanced for this stage.
-    >
-    > Apart from stages `10` and `11`, everything that remains is minor improvements to non-critical things that don't require programming expertise to modify, such as error messages, the LSP error filtering algorithm, and so on.
-    >
-    > But from a technical standpoint, by God's grace, a strong foundation has been built. Even if errors are found, the structure and approach followed are intended to facilitate such rare cases and make the maintenance process more flexible and easier.
-    >
-    > .. A lot of time has passed since I started working on this project. I think I'll change my activity for now so I don't get bored, and I'll produce a [YouTube](https://www.youtube.com/@Code-Guild) video documenting **the journey of the past 100 days**.
+        > By using my [`je-es`](https://github.com/je-es) framework, I'm reducing direct friction with vscode and working on small, separate libraries that are easier to maintain and reuse again if we want to, without rewriting or duplicating the same logic and code again.
 
-    > _last edit: **14/10/2025**_
+        > In other words, I will create a set of well-polished pieces individually, each piece separately, and I will only assemble them together at the end and put the configuration I want in a way that aligns with Kemet's principles. This means that everything I'm building now **can be reused to build any other language and not just Kemet!**
+
+
+        | target                                                              | desc                                                    | status |
+        | ------------------------------------------------------------------- | ------------------------------------------------------- | ------ |
+        | `01` [`@je-es/lexer`](https://github.com/je-es/lexer)               | Converts source code into token streams for parsing.    | `dev`  |
+        | `02` [`@je-es/parser`](https://github.com/je-es/parser)             | Builds Abstract Syntax Trees from token streams.        | `dev`  |
+        | `03` [`@je-es/ast`](https://github.com/je-es/ast)                   | Defines AST structure for analysis and code generation. | `dev`  |
+        | `04` [`@je-es/syntax`](https://github.com/je-es/syntax)             | Defines formal grammar and syntax rules.                | `dev`  |
+        | `05` [`@je-es/ast-analyzer`](https://github.com/je-es/ast-analyzer) | Performs static analysis and semantic validation.       | `dev`  |
+        | `06` [`@je-es/codegen`](https://github.com/je-es/codegen)           | Generates target code from AST.                         | `50%`  |
+        | `07` [`@je-es/project`](https://github.com/je-es/project)           | Manages single projects for CLI/LSP integration.        | `dev`  |
+        | `08` [`@je-es/lsp`](https://github.com/je-es/lsp)                   | Language server with full VSCode integration.           | `dev`  |
+        | `09` [`@je-es/compiler`](https://github.com/je-es/compiler)         | Complete compilation pipeline orchestrator.             | `0%`   |
+
+    - #### `@kemet-lang`
+
+        | target                                                        | desc                                                      | status |
+        | ------------------------------------------------------------- | --------------------------------------------------------- | ------ |
+        | `01` [`@kemet-lang/sesh`](https://github.com/kemet-lang/sesh) | Grammar rules, syntax definitions, and LSP configuration. | `99%`  |
+        | `02` [`@kemet-lang/core`](https://github.com/kemet-lang/core) | Core language implementation and runtime.                 | `99%`  |
+        | `03` [`@kemet-lang/cli`](https://github.com/kemet-lang/cli)   | Command-line interface for Kemet projects.                | `99%`  |
+        | `04` [`@kemet-lang/vsc`](https://github.com/kemet-lang/vsc)   | VSCode extension for Kemet language support.              | `99%`  |
+        | `05` [`@kemet-lang/web`](https://github.com/kemet-lang/web)   | Web-based Kemet playground and documentation.             | `99%`  |
+
 
 <br>
 <div align="center">
@@ -122,7 +94,7 @@
     </a>
 </div>
 <div align="center" dir='ltr'>
-    <img src="https://img.shields.io/badge/-14 oct 2025-black"/>
+    <img src="https://img.shields.io/badge/-5 dec 2025-black"/>
 </div>
 
 <!--------------------------------------------------------------------------->
