@@ -45,6 +45,8 @@
 
 - ### Workflow
 
+    ![img](../assets/img/diag.svg)
+
     - #### `@je-es`
 
         > By using my [`je-es`](https://github.com/je-es) framework, I'm reducing direct friction with vscode and working on small, separate libraries that are easier to maintain and reuse again if we want to, without rewriting or duplicating the same logic and code again.
